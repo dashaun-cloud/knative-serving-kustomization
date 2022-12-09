@@ -16,7 +16,6 @@ flux create source git knative-serving \
 
 ```bash
 flux create kustomization knative-serving \
-  --target-namespace=knative-serving \
   --source=knative-serving \
   --path="./kustomize" \
   --prune=true \
