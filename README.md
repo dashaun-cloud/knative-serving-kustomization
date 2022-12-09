@@ -20,6 +20,6 @@ flux create kustomization knative-serving \
   --source=knative-serving \
   --path="./kustomize" \
   --prune=true \
-  --interval=5m \
+  --interval=3m \
   --export > ./clusters/cluster00/knative-serving-kustomization.yaml
 ```
